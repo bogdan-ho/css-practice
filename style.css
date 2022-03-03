@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+h1 {
+    color: blueviolet;
+}
+
+em {
+    color: green;
+}
+
+li {
+    font-weight: 900;
+}
+
+li em {
+    font-size: larger;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* a:visited {
+    color: #868686;
+} */
+
+/* Упражнение 2. Сокращённые свойства */
+.element {
+    font: normal 18px 'Roboto', sans-serif ;
+    /* font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+	font-weight: normal; */
+}
+
+/* Упражнение 3. Флаг */
+.flag {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    margin-bottom: 60px;
+}
+
+.circle {
+    background-color: red;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* Упражнение 4. Список */
+
+.list-group {
+    list-style: none;
+    padding-left: 0;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+
+.list-group-item {
+    font: normal 18px 'Roboto', sans-serif;
+    margin:15px 15px;
+    border:1px solid rgba(0,0,0,.125);
+    border-top: 0;
+    padding: 10px 10px 10px 15px;
+    margin:0;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px solid rgba(0,0,0,.125);
+    border-top: 0;
+}
+
+/* Упражнение 5. Интерактивный список */
+
+.list-group-item:hover {
+    background-color:#0d6efd;
+}
+
+.list-group-item:hover > a {
+    color: #fff;
+}
+
+.list-group-item > a {
+    text-decoration:none;
+    color:#000;
+}
+
+/* Упражнение 6. Компонент карточки */
+.card {
+    width:350px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    font: normal 15px 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.card-img-top {
+    box-sizing: border-box;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-title {
+    font-size: 22px;
+    margin:0;
+}
+
+.card-body {
+    margin: 20px 20px 30px 20px;
+}
+
+.card-text {
+    margin: 20px 0 30px;
+}
+
+.btn {
+    background-color: #e45d80;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+}
